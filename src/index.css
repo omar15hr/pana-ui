@@ -6,14 +6,13 @@
 }
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #030712;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .sombra-normal {
-  background-color: #8bbd02;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -23,8 +22,8 @@ html {
 }
 
 .sombra-normal:hover {
-  box-shadow: 
-    0px 4px 15px hsl(77deg 98% 37% / 0.2),
+  background-color: #8bbd02;
+  box-shadow: 0px 4px 15px hsl(77deg 98% 37% / 0.2),
     0px 8px 25px hsl(77deg 98% 37% / 0.3),
     0px 12px 35px hsl(77deg 98% 37% / 0.4);
 }

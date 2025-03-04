@@ -27,7 +27,7 @@ export function RightArrow({ size = 24 }: IconProps) {
   );
 }
 
-export function ReactSVG({ size = 24, ...props }: IconProps) {
+export function ReactSVG({ size = 24,...props }: IconProps) {
   return (
     <svg
       width={size}
@@ -38,7 +38,7 @@ export function ReactSVG({ size = 24, ...props }: IconProps) {
       {...props}
     >
       <g fill="none" fillRule="evenodd">
-        <g transform="translate(-227, -256)" fill="#58C4DC" fillRule="nonzero">
+        <g transform="translate(-227, -256)" style={{ fill: "var(--icon-color, #58C4DC)" }} fillRule="nonzero">
           <g transform="translate(227, 256)">
             <path
               d="M285.5,201 C255.400481,201 231,225.400481 231,255.5 C231,285.599519 255.400481,310 285.5,310 C315.599519,310 340,285.599519 340,255.5 C340,225.400481 315.599519,201 285.5,201"
@@ -67,7 +67,7 @@ export function Tailwind({ size = 24, ...props }: IconProps) {
     >
       <g clip-path="url(#a)">
         <path
-          fill="#38bdf8"
+          style={{ fill: "var(--icon-color, #58C4DC)" }}
           fill-rule="evenodd"
           d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z"
           clip-rule="evenodd"
@@ -78,6 +78,30 @@ export function Tailwind({ size = 24, ...props }: IconProps) {
           <path fill="#fff" d="M0 0h54v32.4H0z" />
         </clipPath>
       </defs>
+    </svg>
+  );
+}
+
+export function Box({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      style={{ stroke: "var(--icon-color, #8bbd02)" }}
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon icon-tabler icons-tabler-outline icon-tabler-box"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+      <path d="M12 12l8 -4.5" />
+      <path d="M12 12l0 9" />
+      <path d="M12 12l-8 -4.5" />
     </svg>
   );
 }
