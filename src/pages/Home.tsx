@@ -1,5 +1,5 @@
 import { Footer } from "../components/home/ui/Footer";
-import { FrequentlyQuestions } from "../components/home/FrequentlyQuestions";
+import { FrequentlyQuestions } from "../components/home/FAQ";
 import { Header } from "../components/home/ui/Header";
 import { Technologies } from "../components/home/Technologies";
 import { Showcase } from "../components/home/Showcase";

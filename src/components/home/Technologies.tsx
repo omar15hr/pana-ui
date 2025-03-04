@@ -1,4 +1,4 @@
-import { Box, ReactSVG, Tailwind } from "./Icons";
+import { Box, ReactSVG, Tailwind } from "../Icons";
 
 const TechCards = [
   {

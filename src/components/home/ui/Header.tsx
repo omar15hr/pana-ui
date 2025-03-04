@@ -1,4 +1,4 @@
-import { ReactSVG, RightArrow, Tailwind } from "./Icons";
+import { ReactSVG, RightArrow, Tailwind } from "../../Icons";
 
 export function Header() {
   return (
@@ -10,7 +10,7 @@ export function Header() {
 
       <p className="text-xl text-[#979797]">A collection of UI components</p>
 
-      <a className="group flex gap-2 bg-[#8bbd02] p-2 rounded-md cursor-pointer transition-all duration-300 sombra-normal">
+      <a href="/doc" className="group flex gap-2 bg-[#8bbd02] p-2 rounded-md cursor-pointer transition-all duration-300 sombra-normal">
         <span>Get Started</span>
         <div className="transition-transform duration-300 group-hover:translate-x-1">
           <RightArrow />

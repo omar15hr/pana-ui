@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bell, DocumentationSVG, Github, Moon, Sun } from "./Icons";
+import { Bell, DocumentationSVG, Github, Moon, Sun } from "../Icons";
 
 const socialLinks = [
   {
