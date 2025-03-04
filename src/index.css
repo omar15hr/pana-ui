@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/inter.ttf");
+}
+
 html {
+  font-family: 'Inter', sans-serif;
   background-color: #030712;
   max-width: 1000px;
   margin: 0 auto;
