@@ -1,6 +1,8 @@
+import { Footer } from "./components/Footer";
 import { FrequentlyQuestions } from "./components/FrequentlyQuestions";
 import { Header } from "./components/Header";
 import { Showcase } from "./components/Showcase";
+import { SocialLinks } from "./components/SocialLinks";
 import { Technologies } from "./components/Technologies";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
         <Technologies />
         <Showcase />
         <FrequentlyQuestions />
+        <Footer />
+        <SocialLinks />
       </div>
     </>
   );
